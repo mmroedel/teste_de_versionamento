@@ -1,0 +1,57 @@
+/* 
+* Seletor de tag "nome da tag"
+* Seletor de id "#"
+* Seletor de classe "."
+* Seletor universal "*"
+*/
+
+/**Fonte**/
+*{font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+
+/**Header**/
+header{padding:20px;
+    text-align: center;}
+
+#logo{float: right;
+    border: 2px solid rgb(255,88,28);}  
+
+nav{height: 40px;
+    background-color: rgb(255, 88, 28);
+    text-align:center;
+    padding-top:10px;
+    font-weight: 100;
+    font-size: 25px;}
+
+a{text-decoration: none;
+padding-inline: 100px;
+color: black;}
+
+/**Main**/
+h2{padding: 20px;}
+
+.imgepi{border: 1 solid bisque;
+    border-radius: 10px;}
+
+ul{padding-inline-end: 10px;}
+
+main{color: black;
+padding: 30px;
+background-image: url(img/fundo.png);
+background-repeat: no-repeat ;
+background-position:right;
+background-size:contain;
+background-attachment:local;}
+
+.divmain{padding: 30px;
+text-align: justify;
+width: 1000px;}
+
+/**Footer**/
+footer{background-color: black;
+color: rgb(255, 88, 28);
+padding: 20px;
+text-align: center;}
+
+*{margin: 0%;}
